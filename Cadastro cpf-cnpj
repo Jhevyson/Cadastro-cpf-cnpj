@@ -1,18 +1,23 @@
 print ("Seja bem vindo a academia Start strong, vamos STARTAR a sua mudança de vida!")
-user_name = input ("Digite seu nome completo:")
-cpf = input ("Digite seu cpf: ")
-idade = input ("Quantos anos você tem? ")
-peso = input ("Digite seu peso: ")
-altura = input ("Qual sua altura? ")
-objetivo = input ("O que espera alcançar conosco na Start? ")
+while True:
+  user_name = input ("\nDigite o nome completo do aluno:")
+  cpf = input ("Digite o cpf: ")
+  idade = input ("Quantos anos o aluno tem? ")
+  peso = input ("Digite o peso do aluno: ")
+  altura = input ("digite a altura do aluno")
+  objetivo = input ("Qual o objetivo do aluno? ")
 
-print ("Que ótimo, cadastro efetuado com sucesso, você está no caminho da evolução!")
-print("         ")
+  print ("\nQue ótimo, cadastro efetuado com sucesso!")
 
-print ("Ficha técnica do aluno:")
-print ("Nome: ", user_name)
-print ("CPF: ", cpf)
-print ("Idade: ", idade)
-print ("Peso: ", peso)
-print ("Altura: ", altura)
-print ("Objetivo: ", objetivo)
+
+  print ("\nFicha técnica do aluno:")
+  print ("Nome: ", user_name)
+  print ("CPF: ", cpf)
+  print ("Idade: ", idade)
+  print ("Peso: ", peso)
+  print ("Altura: ", altura)
+  print ("Objetivo: ", objetivo)
+  continuar = input("\nDeseja cadastrar outro aluno? Se sim, digite '1', se não digite qualquer outro número" )
+  if continuar != "1":
+    break
+print ("\nCadastro efetuado!")
