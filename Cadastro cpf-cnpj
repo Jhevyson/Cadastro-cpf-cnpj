@@ -1,0 +1,18 @@
+print ("Seja bem vindo a academia Start strong, vamos STARTAR a sua mudança de vida!")
+user_name = input ("Digite seu nome completo:")
+cpf = input ("Digite seu cpf: ")
+idade = input ("Quantos anos você tem? ")
+peso = input ("Digite seu peso: ")
+altura = input ("Qual sua altura? ")
+objetivo = input ("O que espera alcançar conosco na Start? ")
+
+print ("Que ótimo, cadastro efetuado com sucesso, você está no caminho da evolução!")
+print("         ")
+
+print ("Ficha técnica do aluno:")
+print ("Nome: ", user_name)
+print ("CPF: ", cpf)
+print ("Idade: ", idade)
+print ("Peso: ", peso)
+print ("Altura: ", altura)
+print ("Objetivo: ", objetivo)
